@@ -1,0 +1,14 @@
+ul li:first-of-type {
+  font-weight: 700; }
+
+ul.outer li:last-of-type {
+  font-size: 2em; }
+
+ul.inner li:first-of-type {
+  color: blue; }
+
+ul li {
+  font-family: georgia, serif;
+  color: #222222;
+  padding: 1em;
+  text-align: center; }

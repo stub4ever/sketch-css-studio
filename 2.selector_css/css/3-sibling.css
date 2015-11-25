@@ -1,0 +1,17 @@
+h3 ~ p {
+  font-style: italic; }
+
+body {
+  padding: 2em; }
+
+h3, p {
+  font-family: verdana; }
+
+h3 {
+  font-size: 2em; }
+
+p {
+  margin: 1em 0; }
+
+div > p {
+  margin-left: 2em; }
