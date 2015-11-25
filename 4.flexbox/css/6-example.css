@@ -1,0 +1,60 @@
+html, body {
+  height: 100%; }
+
+.flex {
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%; }
+
+.flex > * {
+  flex: 1 1 0; }
+
+header {
+  background: #c8c8c8; }
+
+.flex > article {
+  flex: 0 0 auto;
+  width: 50px;
+  background: rgba(200, 200, 200, 0.8); }
+
+aside {
+  background: rgba(200, 200, 200, 0.6); }
+
+footer {
+  background: rgba(200, 200, 200, 0.4); }
+
+.mainaxis h2 {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-top: -1rem; }
+
+.mainaxis hr {
+  width: 100%; }
+
+.mainaxis {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.crossaxis {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.crossaxis hr {
+  margin: 0;
+  margin-right: 4em; }
+
+.crossaxis h2 {
+  -webkit-transform: rotate(-90deg) translateY(1.5em);
+  align-self: center;
+  margin-top: 12em; }
