@@ -1,0 +1,8 @@
+div > ul > li {
+  border: 1px solid red;
+  background-color: #eeeeee; }
+
+div > ul > li > ul > li {
+  border: 1px solid blue;
+  margin-left: 10px;
+  background-color: white; }

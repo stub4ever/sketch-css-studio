@@ -1,0 +1,12 @@
+// Selects any list of child of the div and the list item children of the list
+div > ul > li {
+	border: 1px solid red;
+	background-color: #eeeeee;
+}
+
+// Selects the list item of the inner list
+div > ul > li > ul > li {
+	border: 1px solid blue;
+	margin-left: 10px;
+	background-color: white;
+}
