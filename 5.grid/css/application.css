@@ -1,0 +1,18 @@
+h2 {
+  text-align: center; }
+
+.example1 *, .example1 *:before, .example1 *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+.example1 div {
+  outline: 1px solid black;
+  height: 100px;
+  float: left;
+  width: 45%;
+  /* Add a gutter */
+  margin: 2% 2.5%; }
+.example1 .example1::after {
+  content: "";
+  display: table;
+  clear: both; }
