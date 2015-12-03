@@ -11,7 +11,13 @@ h2 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 	}
-
+	
+	.example1::after { // “Add a clearfix to the container for good measure.”
+	    content: "";
+	    display: table;
+	    clear: both; // Allow to fix item which doesn't collapse
+	}
+	
 	div { 
     outline: 1px solid black;
     height: 100px;
@@ -22,16 +28,6 @@ h2 {
     /* Add a gutter */
     margin: 2% 2.5%;
 	}
-
-	.example1::after { // “Add a clearfix to the container for good measure.”
-    content: "";
-    display: table;
-    clear: both; // Allow to fix item which doesn't collapse
-
-}
-
-
-
 }
 
 .example2 {
